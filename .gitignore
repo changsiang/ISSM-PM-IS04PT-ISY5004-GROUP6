@@ -1,0 +1,9 @@
+# ignore pychache in all child folders
+**/__pycache__/
+
+# ignore large file folder
+**/demo
+**/model
+
+# large video files
+*.avi
