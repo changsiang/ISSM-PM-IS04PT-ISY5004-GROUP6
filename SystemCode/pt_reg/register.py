@@ -1,5 +1,5 @@
 import cv2
-from model.PatientRegistrationModel import PatientRegistrationModel
+from pt_reg import PatientRegistrationModel
 from service.service import DatabaseService
 
 # main thread that runs the data capture session

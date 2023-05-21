@@ -8,11 +8,7 @@
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
-Healthcare is undergoing a major transformation from reactive care to a more proactive approach. For this purpose, Singapore has recently announced a major healthcare initiative focusing on preventive care: Healthier SG. Amongst the five key features, Healthier SG aims to mobilise family doctors to deliver preventive care and develop health plans for regular health screening.
-
-However, medical care is segmented into specialised areas of expertise. Ophthalmology is one such area where primary care physicians will often seek the help of the Ophthalmologists for diagnosis and management. This increases the time and cost for patient before he or she receives treatment.
-
-Our group project addresses the need for accessible rapid eye diagnosis. Our system identifies salient clinical features via a colour fundus photo to infer a clinical diagnosis and presents it to the physician. This will allow the primary care physician to better determine whether the patient requires a specialist consultation.
+Vision loss poses a significant health risk, particularly in aging populations. It is closely linked to reduced quality of life, increased dependence, and worsened health outcomes. Timely detection and treatment can help delay the progression of vision loss. However, regular eye checks often face accessibility challenges due to the scarcity of trained specialists. To address this issue, our project aims to enhance the accessibility of routine eye health assessments by developing a vision intelligent system to enable automating visual acuity checks. By leveraging technology, we aspire to improve the availability and convenience of such assessments, ultimately promoting proactive eye care. 
 
 ---
 
@@ -27,10 +23,20 @@ Our group project addresses the need for accessible rapid eye diagnosis. Our sys
 
 ---
 
-## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-`Please refer to the video at hosted on YouTube`
-
-`<Video Link>` : <https://www.youtube.com/watch?v=MiHgiPaYc_g>
+## SECTION 4 : RUNNING THE APPLICATION
+`To run the application, navigate to the SystemCode folder and run the following command`
+`For Patient Registration System`
+```
+python app.py -m reg
+```
+`For Patient Identification System`
+```
+python app.py -m identify
+```
+`For Clinic Examination System`
+```
+python app.py -m exam
+```
 
 ---
 ## SECTION 5 : MID-PROJECT PRESENTATION

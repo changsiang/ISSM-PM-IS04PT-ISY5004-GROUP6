@@ -55,7 +55,7 @@ class DatabaseService:
                 c.execute(query, (patient_name, features, ))
                 self.conn.commit()
             except Error as e:
-                print(e)
+                print("insert row", e)
             finally:
                 c.close()
 
@@ -63,8 +63,7 @@ class DatabaseService:
         query = "SELECT COUNT(*) FROM patient WHERE name = ?"
         c = self.conn.cursor()
         try:
-            c.execute(query, patient_name)
-            c.execute()
+            c.execute(query, (patient_name,))
             result = c.fetchone()
             return result[0]
         except Error as e:

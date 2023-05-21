@@ -7,3 +7,7 @@
 
 # large video files
 *.avi
+*.mp4
+
+**/.DS_STORE
+.DS_STORE
